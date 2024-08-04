@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="space">
+            START
+        </div>
+        <div class="pipe test">
+            <div class="up_pipes">
+
+            </div>
+            <div class="down_pipes">
+    
+            </div>
+        </div>
+    </div>
+    <!-- <div class="screen">
+            
+    </div> -->
+    
+    <div class="circle">
+            
+    </div>
+
+    <div class="score">0</div>
+
+    <div class="gameOver">
+        Score :
+        <div class="final">
+            78999
+        </div>
+
+        <button class="replay" onclick="replay()">Replay</button>
+    </div>
+    <!-- <script src="back scroll.js"></script> -->
+     <script>
+        function isMobileDevice() {
+            return /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|OperaMini/i.test(navigator.userAgent);
+        }
+
+        if (isMobileDevice()) {
+            window.location.href = "Mobile.html";
+        }
+     </script>
+    <script src="newBack.js"></script>
+    <script src="flying.js"></script>
+    <script src="over.js"></script>
+</body>
+</html>
